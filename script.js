@@ -13,5 +13,5 @@ function getFormvalue(event) {
     }
 }
 
-var loginForm = document.getElementById("loginForm");
-loginForm.addEventListener("submit", getFormvalue);
+var form1 = document.getElementById("form1");
+form1.addEventListener("submit", getFormvalue);
